@@ -1,0 +1,7 @@
+All cards are listed as a number between 1 and 52
+The seven visible cards are: x0, x7, x15, x18, x22, x25, and x27
+All cards 29-52 are visible in the deck
+The suits are in the following order: Spades, Clubs, Hearts, Diamonds
+The number divided by 13 rounded down will give the suit of the card (0, 1, 2, or 3)
+The number modulo 13 will give the value of the card (0-12)
+WARNING: An ace of the previous suit will be marked as the next suit. Make sure to either decrease all values by 1 or check for an ace
